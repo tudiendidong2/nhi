@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ff6666"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/vaBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_search_black_24dp"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/vaText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ví dụ"
+            android:textColor="#fff"
+            android:textSize="45px" />
+
+
+        <EditText
+            android:id="@+id/vaNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="210sp"
+            android:drawableRight="@drawable/ic_note" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5px"
+            android:drawableRight="@drawable/ic_star_black_24dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:hint="Tu tieng viet"
+            android:textColor="#000"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txtTA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:hint="Nghia tieng anh"
+            android:textColor="#ffff6666"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/txtTitleVD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTA"
+            android:layout_marginTop="40dp"
+            android:text="Ví dụ :"
+            android:textColor="#e2d3"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/txtVD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTitleVD"
+            android:hint="Nghia tieng anh..."
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

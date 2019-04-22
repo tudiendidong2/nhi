@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rlTA"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:layout_below="@+id/etSearch"
+            android:hint="tu tieng anh"
+            android:id="@+id/txtTuTiengViet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:drawableLeft="@drawable/ic_arrow_forward_black_24dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_below="@+id/txtTuTiengViet"
+            android:hint="nghia tieng viet"
+            android:id="@+id/txtTuTiengAnh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtEx"
+           android:textColor="#0000ff"
+            android:text="Example:"
+            android:textStyle="italic"
+            android:textSize="30sp"
+            android:layout_below="@+id/txtTuTiengAnh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#000"
+            android:hint="mean..."
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_below="@+id/txtEx"
+            android:id="@+id/txtViDu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</RelativeLayout>
